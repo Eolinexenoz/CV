@@ -1,0 +1,35 @@
+.navigation li{
+    display: inline-block;
+}
+
+img.moi{
+    float: right;
+}
+
+.infos li{
+    float: left;
+}
+
+.infos img{
+    vertical-align: text-top;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.progress{
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+}
+
+.progressBar{
+    width: 250px;
+    height: 20px;
+    border: 1px solid;
+}
+
+li{
+    list-style-type: none;
+    margin: 0;
+}
