@@ -1,20 +1,28 @@
-.navigation li{
-    display: inline-block;
+.navigation ul{
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: fixed;
+    margin: -210px;
+    top: 210px;
+    background-color: black;
+    flex-direction: column;
 }
 
-img.moi{
-    float: right;
+.navigation li a:hover {
+    background-color: #111;
 }
 
-.infos li{
-    float: left;
-}
-
-.infos img{
-    vertical-align: text-top;
-    margin-left: auto;
-    margin-right: auto;
+.navigation li a {
     display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.titresidebar {
+    background-color: grey;
+    float: right;
 }
 
 .progress{
@@ -31,5 +39,4 @@ img.moi{
 
 li{
     list-style-type: none;
-    margin: 0;
 }
